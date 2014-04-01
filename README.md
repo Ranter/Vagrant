@@ -1,10 +1,8 @@
 # JSI Vagrant
 
-![Vagrant logo](http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vagrant.png/300px-Vagrant.png =100x122)
-
 **Vagrant** is a tool for building and distributing development environments.
 
-## Quick Start
+## Installation
 
 1. Install [VirtualBox](http://www.virtualbox.org).
 2. Install [Vagrant](http://www.vagrantup.com/downloads).
