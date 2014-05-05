@@ -26,8 +26,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       "modifyvm", :id,
       "--name", "jsi-vm",
       "--ostype", "Ubuntu_64",
-      "--cpus", 3,
-      "--memory", "2048",
+      "--cpus", 2,
+      "--memory", "1024",
       "--ioapic", "on",
       "--usb", "off",
       "--audio", "none"
