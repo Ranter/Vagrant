@@ -38,4 +38,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :path => "shell/provision.sh"
   config.vm.provision :shell, :path => "shell/install-rvm.sh",  :args => "stable"
   config.vm.provision :shell, :path => "shell/install-ruby.sh", :args => "2.1.1 bundler"
+  config.vm.provision :shell, :path => "shell/create-swap-file.sh"
 end
